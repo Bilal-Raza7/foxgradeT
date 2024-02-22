@@ -1,0 +1,10 @@
+.vl {
+  border-left: 1px solid #ff6600;
+  height: 15px;
+}
+.hl {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-top: 15px solid #262626;
+}
