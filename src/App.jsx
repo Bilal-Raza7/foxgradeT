@@ -184,14 +184,14 @@ const App = () => {
           </div>
         )}
         {!collapse ? (
-          <div className="content-controls md:pl-12">
+          <div className="content-controls xl:pl-0 lg:pl-0 md:pl-12">
             <Slider />
-            <FeaturedProducts />
+            <FeaturedProducts className="m-6" />
             <Testimonials />
             <Footer />
           </div>
         ) : (
-          <div className="inc-content-controls lg:pl-0 md-pl-1 pl-7 pr-3">
+          <div className="inc-content-controls lg:pl-0 md-pl-0 pl-5 pr-0">
             <Slider />
             <FeaturedProducts />
             <Testimonials />

@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer className="footer pl-6 py-4 border-t bg-base-200 text-base-content border-base-300 overflow-hidden">
         <aside className="items-center grid-flow-col">
-          <img src={SidebarLogo} alt="foxGrade" className="w-40 mr-3" />
+          <img src={SidebarLogo} alt="foxGrade" className="w-40 mr-3 " />
           <span className="opacity-90">Digital Marketing</span>
           <div className="vl"></div>
           <span className="opacity-90">Graphic Design</span>
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="vl"></div>
           <span className="opacity-90">Blog Websites</span>
         </aside>
-        <p className="text-orange-500 place-self-center justify-self-end mr-3 font-bold">
+        <p className="text-orange-500 place-self-center justify-self-end mr-3 font-bold lg:block md:block xl:block hidden">
           Growth Doesn't Need Creatives, it Needs Creative Minds
         </p>
       </footer>
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div className="bg-base-200 pb-6 overflow-hidden text-wrap">
+      <div className="bg-base-200 pb-6 overflow-hidden">
         <p className="text-center p-16 text-sm font-semibold lg:p-12 xl:pb-16">
           &copy; {footerYear} FoxGrade Agency. Made With ❤️ in India
         </p>

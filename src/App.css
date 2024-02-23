@@ -9,7 +9,7 @@
   border-top: 15px solid #262626;
 }
 .sidebar-controls {
-  width: 18vh;
+  width: 16vh;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -21,10 +21,19 @@
   z-index: 10;
 }
 .content-controls {
-  width: 82vw;
+  width: 84vw;
   margin-left: 20vw;
 }
 .inc-content-controls {
-  width: 92vw;
-  margin-left: 7vw;
+  width: 86vw;
+  margin-left: 12vw;
 }
+/* @media only screen and (max-width: 800px) {
+  .sidebar-controls {
+    width: 6vw;
+  }
+  .content-controls {
+    width: 94vw;
+    margin-left: 10vw;
+  }
+} */
