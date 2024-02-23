@@ -10,16 +10,16 @@ const App = () => {
   return (
     <>
       <div className="flex">
-        <div style={{ width: "18vw", position: "fixed " }}>
+        <div style={{ width: "18vw", position: "fixed", zIndex: "11" }}>
           <Navbar />
         </div>
-        <div style={{ width: "82vw", marginLeft: "18vw" }}>
+        <div style={{ width: "82vw", marginLeft: "20vw" }}>
           <Slider />
           <FeaturedProducts />
           <Testimonials />
+          <Footer />
         </div>
       </div>
-      <Footer />
     </>
   );
 };

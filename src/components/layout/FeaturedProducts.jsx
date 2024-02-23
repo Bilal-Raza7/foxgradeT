@@ -7,7 +7,7 @@ const FeaturedProducts = () => {
         <h2 className="text-center text-orange-500 text-5xl my-5">
           FEATURED PRODUCTS
         </h2>
-        <div className="grid grid-cols-3 pl-9">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 pl-9 float-center">
           <div className="card w-72 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
