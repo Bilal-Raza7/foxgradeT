@@ -27,6 +27,9 @@ const App = () => {
   };
   return (
     <>
+      <div className="navbar bg-neutral-800">
+        <a className="btn btn-ghost text-xl">daisyUI</a>
+      </div>
       <div className="flex">
         {!collapse ? (
           <div className="sidebar-controls">
@@ -113,7 +116,7 @@ const App = () => {
                 backgroundColor="rgb(38,38,38)"
                 className="text-white fixed h-screen left-0"
               >
-                <div className="logo-container-sidebar my-9">
+                <div className="logo-container-sidebar mb-9 mt-2">
                   <div
                     className={`grid ${
                       collapse
