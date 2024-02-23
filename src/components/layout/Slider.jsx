@@ -5,7 +5,7 @@ const Slider = () => {
   return (
     <>
       <div className="grid">
-        <div className="hl"></div>
+        {/* <div className="hl"></div> */}
         <h3 className="text-5xl text-center my-5">
           ELEVATING BRANDS WITH TRENDS
         </h3>
