@@ -11,6 +11,7 @@
 .sidebar-controls {
   width: 18vh;
   position: fixed;
+  top: 0;
   z-index: 10;
 }
 .content-controls {
