@@ -27,9 +27,7 @@ const App = () => {
   };
   return (
     <>
-      <div className="navbar bg-neutral-800">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
-      </div>
+      <div className="navbar bg-neutral-800"></div>
       <div className="flex">
         {!collapse ? (
           <div className="sidebar-controls">
