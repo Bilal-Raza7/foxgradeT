@@ -4,7 +4,7 @@ const FeaturedProducts = () => {
   return (
     <>
       <div className="grid">
-        <h2 className="text-center text-orange-500 xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl my-5">
+        <h2 className="text-center text-orange-500 xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl my-5">
           FEATURED PRODUCTS
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-9 float-center">

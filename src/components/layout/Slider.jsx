@@ -6,7 +6,7 @@ const Slider = () => {
     <>
       <div className="grid">
         {/* <div className="hl"></div> */}
-        <h3 className="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center my-5 text-orange-500">
+        <h3 className="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-center my-5 text-orange-500 px-3">
           ELEVATING BRANDS WITH TRENDS
         </h3>
         <div className="carousel carousel-end">

@@ -4,7 +4,6 @@ import "./App.css";
 import Slider from "./components/layout/Slider";
 import FeaturedProducts from "./components/layout/FeaturedProducts";
 import Testimonials from "./components/layout/Testimonials";
-// import SidebarLogo from "../Website Elements/logo1.png";
 import SidebarLogo from "../Website Elements/logo1.png";
 import Logo from "../Website Elements/Logo Fox.png";
 import {
@@ -27,7 +26,11 @@ const App = () => {
   };
   return (
     <>
-      <div className="navbar bg-neutral-800"></div>
+      <div className="navbar bg-neutral-800">
+        <div className="ml-36 navbar-end">
+          <img src={SidebarLogo} alt="" className="h-12" />
+        </div>
+      </div>
       <div className="flex">
         {!collapse ? (
           <div className="sidebar-controls">
