@@ -101,6 +101,10 @@ const Contact = () => {
             </select>
           </label>
         </div>
+        <textarea
+          placeholder="Bio"
+          className="textarea textarea-bordered textarea-lg w-full max-w-xs m-9"
+        ></textarea>
       </div>
     </>
   );
