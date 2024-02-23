@@ -18,6 +18,7 @@ import {
   FaUncharted,
 } from "react-icons/fa";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import Contact from "./components/layout/Contact";
 
 const App = () => {
   const [collapse, setCollapse] = useState(false);
@@ -192,6 +193,7 @@ const App = () => {
             <Slider />
             <FeaturedProducts className="m-6" />
             <Testimonials />
+            <Contact />
             <Footer />
           </div>
         ) : (
@@ -199,6 +201,7 @@ const App = () => {
             <Slider />
             <FeaturedProducts />
             <Testimonials />
+            <Contact />
             <Footer />
           </div>
         )}
