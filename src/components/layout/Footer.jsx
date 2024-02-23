@@ -84,8 +84,8 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div className="bg-base-200 pb-6 overflow-hidden">
-        <p className="text-center">
+      <div className="bg-base-200 pb-6 overflow-hidden text-wrap">
+        <p className="text-center p-16 text-sm font-semibold lg:p-12 xl:pb-16">
           &copy; {footerYear} FoxGrade Agency. Made With ❤️ in India
         </p>
       </div>

@@ -14,6 +14,12 @@
   top: 0;
   z-index: 10;
 }
+.inc-sidebar-controls {
+  width: 8vh;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
 .content-controls {
   width: 82vw;
   margin-left: 20vw;
