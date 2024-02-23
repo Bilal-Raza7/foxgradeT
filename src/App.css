@@ -20,8 +20,8 @@
   margin-left: 20vw;
 }
 .inc-content-controls {
-  width: 86vw;
-  margin-left: 12vw;
+  /* width: 86vw; */
+  margin-left: 6vw;
 }
 /* @media only screen and (max-width: 800px) {
   .sidebar-controls {
