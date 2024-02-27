@@ -13,7 +13,7 @@ const Contact = () => {
           I'D LOVE TO HEAR FROM YOU
         </p>
       </div>
-      <div className="form rounded-lg shadow-md bg-gray-300 p-9">
+      <div className="form rounded-lg shadow-md bg-gray-300 p-12">
         <div className="grid grid-cols-2 gap-6 mb-6">
           <label className="form-control w-full max-w-full justify-self-start">
             <div className="label">
