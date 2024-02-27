@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../../../Website Elements/Logo Fox.png";
 
 const Testimonials = () => {
   return (
@@ -7,24 +8,133 @@ const Testimonials = () => {
         <div className="text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-orange-500 my-9 pb-9">
           TESTIMONIALS
         </div>
+
         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 ml-9">
-          <div className="flex flex-col gap-4 xl:w-56 lg:w-52 w-52 p-3">
-            <div className="skeleton h-32 w-full"></div>
-            <div className="skeleton h-4 w-28"></div>
-            <div className="skeleton h-4 w-full"></div>
-            <div className="skeleton h-4 w-full"></div>
+          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100">
+            <div className="flex justify-around py-6">
+              <img src={img1} alt="" className="w-12" />
+              <div>
+                <h3 className="font-bold text-xl pt-3">John Doe</h3>
+                <div className="rating rating-sm">
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="pt-3 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              delectus aperiam aliquam incidunt provident, veniam placeat totam
+              facere, velit officia minus maxime reiciendis.
+            </p>
+            <strong>Thank You</strong>
           </div>
-          <div className="flex flex-col gap-4 xl:w-56 lg:w-52 w-52 p-3">
-            <div className="skeleton h-32 w-full"></div>
-            <div className="skeleton h-4 w-28"></div>
-            <div className="skeleton h-4 w-full"></div>
-            <div className="skeleton h-4 w-full"></div>
+          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100">
+            <div className="flex justify-around py-6">
+              <img src={img1} alt="" className="w-12" />
+              <div>
+                <h3 className="font-bold text-xl pt-3">John Doe</h3>
+                <div className="rating rating-sm">
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="pt-3 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              delectus aperiam aliquam incidunt provident, veniam placeat totam
+              facere, velit officia minus maxime reiciendis.
+            </p>
+            <strong>Thank You</strong>
           </div>
-          <div className="flex flex-col gap-4 xl:w-56 lg:w-52 w-52 p-3">
-            <div className="skeleton h-32 w-full"></div>
-            <div className="skeleton h-4 w-28"></div>
-            <div className="skeleton h-4 w-full"></div>
-            <div className="skeleton h-4 w-full"></div>
+          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100">
+            <div className="flex justify-around py-6">
+              <img src={img1} alt="" className="w-12" />
+              <div>
+                <h3 className="font-bold text-xl pt-3">John Doe</h3>
+                <div className="rating rating-sm">
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-6"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="pt-3 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              delectus aperiam aliquam incidunt provident, veniam placeat totam
+              facere, velit officia minus maxime reiciendis.
+            </p>
+            <strong>Thank You</strong>
           </div>
         </div>
       </div>
