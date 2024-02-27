@@ -111,7 +111,7 @@ const Contact = () => {
           </div>
           <textarea
             placeholder="Hello there..."
-            className="textarea textarea-bordered w-full max-w-full px-5"
+            className="textarea textarea-bordered w-full max-w-full px-5 bg-white"
           ></textarea>
         </label>
         <div className=" py-6 flex gap-3">
