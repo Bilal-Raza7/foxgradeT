@@ -14,7 +14,7 @@
   z-index: 10;
 }
 .inc-sidebar-controls {
-  width: 7vh;
+  width: 5vh;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -26,4 +26,8 @@
 .inc-content-controls {
   /* width: 86vw; */
   margin-left: 6vw;
+}
+.css-1wvake5.ps-collapsed {
+  width: 70px;
+  min-width: 70px;
 }

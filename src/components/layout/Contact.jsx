@@ -1,4 +1,7 @@
 import React from "react";
+import cl1 from "../../../Website Elements/cl1.jpg";
+import cl2 from "../../../Website Elements/cl2.jpg";
+import cl3 from "../../../Website Elements/cl3.jpg";
 
 const Contact = () => {
   return (
@@ -121,6 +124,29 @@ const Contact = () => {
         <button className="btn bg-orange-500 text-white hover:bg-orange-600 scale-2">
           submit <span className="hover:rotate-[-45deg]">&#x2192;</span>
         </button>
+      </div>
+      <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-7 justify-center py-3 px-9">
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl1} alt="company1" />
+        </div>
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl2} alt="company1" />
+        </div>
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl3} alt="company1" />
+        </div>
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl1} alt="company1" />
+        </div>
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl2} alt="company1" />
+        </div>
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl3} alt="company1" />
+        </div>
+        <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl1} alt="company1" />
+        </div>
       </div>
     </>
   );
