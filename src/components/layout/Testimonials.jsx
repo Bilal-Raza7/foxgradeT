@@ -10,7 +10,7 @@ const Testimonials = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 ml-9 gap-3">
-          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100">
+          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
             <div className="flex justify-around py-6">
               <img src={img1} alt="" className="w-12" />
               <div>
@@ -52,7 +52,7 @@ const Testimonials = () => {
             </p>
             <strong>Thank You</strong>
           </div>
-          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100">
+          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
             <div className="flex justify-around py-6">
               <img src={img1} alt="" className="w-12" />
               <div>
@@ -94,7 +94,7 @@ const Testimonials = () => {
             </p>
             <strong>Thank You</strong>
           </div>
-          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100">
+          <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
             <div className="flex justify-around py-6">
               <img src={img1} alt="" className="w-12" />
               <div>
