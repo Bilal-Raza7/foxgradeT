@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const Slider = () => {
   return (
     <>
-      <div className="grid">
+      <div className="grid xl:block lg:block md:block sm:block hidden">
         {/* <div className="hl"></div> */}
         <h3 className="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-center my-5 text-orange-500 px-3">
           ELEVATING BRANDS WITH TRENDS

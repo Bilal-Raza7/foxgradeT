@@ -7,8 +7,8 @@ const FeaturedProducts = () => {
         <h2 className="text-center text-orange-500 xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl my-5">
           FEATURED PRODUCTS
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-12 float-center">
-          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-14 float-center">
+          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -23,7 +23,7 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl">
+          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -38,7 +38,7 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl">
+          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -53,7 +53,7 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl">
+          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -68,7 +68,7 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl">
+          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -83,7 +83,7 @@ const FeaturedProducts = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl">
+          <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-base-100 shadow-xl">
             <figure>
               <img
                 src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
