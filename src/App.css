@@ -2,11 +2,7 @@
   border-left: 1px solid #ff6600;
   height: 15px;
 }
-/* .not-scroll {
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-} */
+
 .sidebar-controls {
   width: 16vh;
   position: fixed;

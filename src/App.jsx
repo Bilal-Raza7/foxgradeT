@@ -19,6 +19,7 @@ import {
 } from "react-icons/fa";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import Contact from "./components/layout/Contact";
+import Services from "./components/layout/Services";
 
 const App = () => {
   const [collapse, setCollapse] = useState(false);
@@ -192,6 +193,7 @@ const App = () => {
           <div className="content-controls xl:pl-0 lg:pl-0 md:pl-12">
             <Slider />
             <FeaturedProducts className="m-6" />
+            <Services />
             <Testimonials />
             <Contact />
             <Footer />
@@ -200,6 +202,7 @@ const App = () => {
           <div className="inc-content-controls lg:pl-0 md-pl-0 pl-5 pr-0">
             <Slider />
             <FeaturedProducts />
+            <Services />
             <Testimonials />
             <Contact />
             <Footer />

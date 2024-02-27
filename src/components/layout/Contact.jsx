@@ -144,9 +144,6 @@ const Contact = () => {
         <div className="self-center grayscale hover:grayscale-0 xl:block lg:block md:block hidden">
           <img src={cl3} alt="company1" />
         </div>
-        {/* <div className="self-center grayscale hover:grayscale-0">
-          <img src={cl1} alt="company1" />
-        </div> */}
       </div>
     </>
   );
