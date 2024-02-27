@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 px-9">
         <p className="text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-orange-500 my-9 pb-9">
           Contact Us
         </p>

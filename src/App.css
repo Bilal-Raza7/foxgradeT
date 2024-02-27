@@ -14,7 +14,7 @@
   z-index: 10;
 }
 .inc-sidebar-controls {
-  width: 8vh;
+  width: 7vh;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -27,12 +27,3 @@
   /* width: 86vw; */
   margin-left: 6vw;
 }
-/* @media only screen and (max-width: 800px) {
-  .sidebar-controls {
-    width: 6vw;
-  }
-  .content-controls {
-    width: 94vw;
-    margin-left: 10vw;
-  }
-} */
