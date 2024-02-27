@@ -5,7 +5,7 @@ import img1 from "../../../Website Elements/Logo Fox.png";
 const Testimonials = () => {
   return (
     <>
-      <div className="m-9 xl:block lg:block md:block hidden">
+      <div className="mY-9 xl:block lg:block md:block hidden">
         <div className="text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-orange-500 my-9 pb-9">
           TESTIMONIALS
         </div>

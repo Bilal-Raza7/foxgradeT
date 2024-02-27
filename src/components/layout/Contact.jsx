@@ -6,8 +6,8 @@ import cl3 from "../../../Website Elements/cl3.jpg";
 const Contact = () => {
   return (
     <>
-      <div className="grid  xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 px-9">
-        <p className="text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-orange-500 my-9 pb-9">
+      <div className="grid  xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 px-9">
+        <p className="text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-orange-500 my-9 pb-9">
           Contact Us
         </p>
         <p className="lg:text-2xl md:text-xl sm:text-md xl:text-3xl xl:block lg:block md:block sm:block hidden my-9 pb-9">
@@ -125,25 +125,29 @@ const Contact = () => {
           submit <span className="hover:rotate-[-45deg]">&#x2192;</span>
         </button>
       </div>
+
       <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 justify-center py-3 px-9">
-        <div className="self-center grayscale hover:grayscale-0">
+        <div className="self-center transition-all duration-300 grayscale hover:grayscale-0">
           <img src={cl1} alt="company1" />
         </div>
-        <div className="self-center grayscale hover:grayscale-0">
+        <div className="self-center transition-all duration-300 grayscale hover:grayscale-0">
           <img src={cl2} alt="company1" />
         </div>
-        <div className="self-center grayscale hover:grayscale-0">
+        <div className="self-center transition-all duration-300 grayscale hover:grayscale-0">
           <img src={cl3} alt="company1" />
         </div>
-        <div className="self-center grayscale hover:grayscale-0 ">
+        <div className="self-center transition-all duration-300 grayscale hover:grayscale-0 ">
           <img src={cl1} alt="company1" />
         </div>
-        <div className="self-center grayscale hover:grayscale-0 xl:block lg:block md:block sm:block hidden">
+        <div className="self-center transition-all duration-300 grayscale hover:grayscale-0 xl:block lg:block md:block sm:block hidden">
           <img src={cl2} alt="company1" />
         </div>
-        <div className="self-center grayscale hover:grayscale-0 xl:block lg:block md:block hidden">
+        <div className="self-center transition-all duration-300 grayscale hover:grayscale-0 xl:block lg:block md:block hidden">
           <img src={cl3} alt="company1" />
         </div>
+        {/* <div className="self-center grayscale hover:grayscale-0">
+          <img src={cl1} alt="company1" />
+        </div> */}
       </div>
     </>
   );

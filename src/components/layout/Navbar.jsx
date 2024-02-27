@@ -47,37 +47,37 @@ const Navbar = () => {
             </div>
           </div>
           <div className="item-container-sidebar my-9">
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out delay-150 hover:text-orange-500 duration-100 cursor-pointer">
+            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaBookmark />
               </span>
               <span>Projects</span>
             </h2>
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out delay-150 hover:text-orange-500 duration-100 cursor-pointer">
+            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaComment />
               </span>
               <span>Testimonial</span>
             </h2>
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out delay-150 hover:text-orange-500 duration-100 cursor-pointer">
+            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaServicestack />
               </span>
               <span>Services</span>
             </h2>
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out delay-150 hover:text-orange-500 duration-100 cursor-pointer">
+            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaInfoCircle />
               </span>
               <span>About</span>
             </h2>
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out delay-150 hover:text-orange-500 duration-100 cursor-pointer">
+            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaPhoneAlt />
               </span>
               <span>Contact</span>
             </h2>
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out delay-150 hover:text-orange-500 duration-100 cursor-pointer">
+            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaQuestionCircle />
               </span>
