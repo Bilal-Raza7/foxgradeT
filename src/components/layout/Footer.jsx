@@ -21,7 +21,7 @@ const Footer = () => {
             Growth Doesn't Need Creatives, it Needs Creative Minds
           </p>
         </footer>
-        <footer className="footer px-10 py-5 sm:ml-9 md:ml-9  text-base-content overflow-hidden">
+        <footer className="footer pl-10 py-5 text-base-content">
           <nav>
             <h6 className="footer-title opacity-100">Services</h6>
             <a className="link link-hover">Branding</a>

@@ -14,30 +14,30 @@ const Contact = () => {
         </p>
       </div>
       <div className="form rounded-lg shadow-md bg-gray-300 p-9">
-        <div className="grid grid-cols-2">
-          <label className="form-control w-full max-w-xs">
+        <div className="grid grid-cols-2 gap-6 mb-6">
+          <label className="form-control w-full max-w-full justify-self-start">
             <div className="label">
-              <span className="label-text p-3">What is your name?</span>
+              <span className="label-text">What is your name?</span>
             </div>
             <input
               type="text"
               placeholder="Type here"
-              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-xs"
+              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-full"
             />
           </label>
-          <label className="form-control w-full max-w-xs">
+          <label className="form-control w-full max-w-full justify-self-end">
             <div className="label">
-              <span className="label-text p-3">What is your Email?</span>
+              <span className="label-text">What is your Email?</span>
             </div>
             <input
               type="email"
               placeholder="Type here"
-              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-xs"
+              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-full"
             />
           </label>
-          <label className="form-control w-full max-w-xs">
+          <label className="form-control w-full max-w-full justify-self-start">
             <div className="label">
-              <span className="label-text">Select Your Budget</span>
+              <span className="label-text">Select Budget</span>
             </div>
             <select className="select select-bordered">
               <option disabled selected>
@@ -49,7 +49,7 @@ const Contact = () => {
               <option>2000-2500</option>
             </select>
           </label>
-          <label className="form-control w-full max-w-xs">
+          <label className="form-control w-full max-w-full justify-self-end">
             <div className="label">
               <span className="label-text">Select Service</span>
             </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                 Graphics Design
               </option>
               <option></option>
-              <option>Custom</option>
+              {/* <option>Custom</option> */}
               <option>Logo Design</option>
               <option>Brand Identity Design</option>
               <option>Print Design</option>
@@ -73,7 +73,7 @@ const Contact = () => {
                 Graphics Design
               </option>
               <option></option>
-              <option>Custom</option>
+              {/* <option>Custom</option> */}
               <option>Logo Design</option>
               <option>Brand Identity Design</option>
               <option>Print Design</option>
@@ -88,7 +88,7 @@ const Contact = () => {
                 Graphics Design
               </option>
               <option></option>
-              <option>Custom</option>
+              {/* <option>Custom</option> */}
               <option>Logo Design</option>
               <option>Brand Identity Design</option>
               <option>Print Design</option>
@@ -101,10 +101,26 @@ const Contact = () => {
             </select>
           </label>
         </div>
-        <textarea
-          placeholder="Bio"
-          className="textarea textarea-bordered textarea-lg w-full max-w-xs m-9"
-        ></textarea>
+
+        <label className="form-control w-full max-w-full justify-self-end">
+          <div className="label">
+            <span className="label-text">Description</span>
+          </div>
+          <textarea
+            placeholder="Hello there..."
+            className="textarea textarea-bordered w-full max-w-full px-5"
+          ></textarea>
+        </label>
+        <div className=" py-6 flex gap-3">
+          <input type="checkbox" defaultChecked className="checkbox " />
+          <p>
+            By submitting this form, you agree to the{" "}
+            <strong>PRIVACY POLICY</strong>
+          </p>
+        </div>
+        <button className="btn bg-orange-500 text-white hover:bg-orange-600 scale-2">
+          submit <span className="hover:rotate-[-45deg]">&#x2192;</span>
+        </button>
       </div>
     </>
   );

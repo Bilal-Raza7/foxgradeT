@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import SidebarLogo from "../../../Website Elements/logo1.png";
 import Logo from "../../../Website Elements/Logo Fox.png";
 import {
@@ -21,11 +20,11 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="">
+      <div className="bg-neutral">
         <Sidebar
           collapsed={collapse}
           backgroundColor="rgb(38,38,38)"
-          className="text-white fixed h-screen left-0"
+          className="text-white sticky static"
         >
           <div className="logo-container-sidebar my-9">
             <div
