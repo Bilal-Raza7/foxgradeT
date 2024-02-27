@@ -5,7 +5,7 @@ const Footer = () => {
   const footerYear = new Date().getFullYear();
   return (
     <>
-      <div className="bg-base-200">
+      <div className="bg-gray-200">
         <footer className="footer pl-6 py-4 border-t  text-base-content border-base-300 overflow-hidden">
           <aside className="items-center grid-flow-col">
             <img src={SidebarLogo} alt="foxGrade" className="w-40 mr-3 " />
