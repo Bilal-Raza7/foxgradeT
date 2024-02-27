@@ -25,7 +25,7 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Type here"
-              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-full"
+              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-full bg-white"
             />
           </label>
           <label className="form-control w-full max-w-full justify-self-end">
@@ -35,14 +35,14 @@ const Contact = () => {
             <input
               type="email"
               placeholder="Type here"
-              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-full"
+              className="input input-bordered lg:input-md md:input-md sm:input-sm sx:input-xs max-w-full bg-white"
             />
           </label>
           <label className="form-control w-full max-w-full justify-self-start">
             <div className="label">
               <span className="label-text">Select Budget</span>
             </div>
-            <select className="select select-bordered">
+            <select className="select select-bordered bg-white">
               <option disabled selected>
                 Pick one
               </option>
@@ -56,7 +56,7 @@ const Contact = () => {
             <div className="label">
               <span className="label-text">Select Service</span>
             </div>
-            <select className="select select-bordered">
+            <select className="select select-bordered bg-white">
               <option disabled selected>
                 Graphics Design
               </option>
