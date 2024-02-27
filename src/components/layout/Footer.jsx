@@ -21,7 +21,7 @@ const Footer = () => {
             Growth Doesn't Need Creatives, it Needs Creative Minds
           </p>
         </footer>
-        <footer className="footer pl-10 py-9 text-base-content">
+        <footer className="footer pl-12 py-9 text-base-content">
           <nav>
             <h6 className="footer-title opacity-100">Services</h6>
             <a className="link link-hover">Branding</a>
@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
           </nav>
         </footer>
-        <div className=" pb-6 overflow-hidden">
+        <div className=" pb-6 overflow-hidden px-5">
           <p className="text-center">
             &copy; {footerYear} FoxGrade Agency. Made With ❤️ in India
           </p>
