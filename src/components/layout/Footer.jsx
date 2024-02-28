@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-gray-200">
-        <footer className="footer pl-6 py-4 border-t  text-base-content border-base-300 overflow-hidden">
+        <footer className="footer pl-6 py-4 border-t  text-gray-800 border-base-300 overflow-hidden">
           <aside className="items-center grid-flow-col">
             <img src={SidebarLogo} alt="foxGrade" className="w-40 mr-3 " />
             <span className="opacity-90">Digital Marketing</span>
@@ -21,7 +21,7 @@ const Footer = () => {
             Growth Doesn't Need Creatives, it Needs Creative Minds
           </p>
         </footer>
-        <footer className="footer pl-12 py-9 text-base-content">
+        <footer className="footer pl-12 py-9 text-gray-800">
           <nav>
             <h6 className="footer-title opacity-100">Services</h6>
             <a className="link link-hover">Branding</a>
