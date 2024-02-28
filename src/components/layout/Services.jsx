@@ -4,7 +4,7 @@ import img1 from "../../../Website Elements/Whatsapp Icon.png";
 const Services = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="services">
         <div className="grid">
           <div className="grid  xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 px-9">
             <p className="text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-orange-500 my-9 pb-9">

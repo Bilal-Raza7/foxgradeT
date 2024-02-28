@@ -1,5 +1,6 @@
 import SidebarLogo from "../../../Website Elements/logo1.png";
 import Logo from "../../../Website Elements/Logo Fox.png";
+import { Link } from "react-router-dom";
 import {
   FaBookmark,
   FaComment,
@@ -59,12 +60,14 @@ const Navbar = () => {
               </span>
               <span>Testimonial</span>
             </h2>
-            <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
-              <span className="mx-2 text-xl">
-                <FaServicestack />
-              </span>
-              <span>Services</span>
-            </h2>
+            <a to="#services" className="">
+              <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
+                <span className="mx-2 text-xl">
+                  <FaServicestack />
+                </span>
+                <span>Services</span>
+              </h2>
+            </a>
             <h2 className="text-md text-gray-300 my-3 py-1 px-3 mx-3 text-center flex gap-9 items-center transition ease-in-out duration-300 transition-all hover:text-orange-500  cursor-pointer">
               <span className="mx-2 text-xl">
                 <FaInfoCircle />
