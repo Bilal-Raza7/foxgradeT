@@ -30,15 +30,21 @@ const About = () => {
             <div class="row-span-1 col-span-3 grid">
               <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-1">
                 <div className="bg-gray-100 rounded-lg p-3 mr-1">
-                  <p className="text-5xl text-center">50+</p>
+                  <p className="text-3xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl text-center">
+                    50+
+                  </p>
                   <p className="text-sm mt-5 text-center">Satisfied Clients</p>
                 </div>
                 <div className="bg-gray-100 rounded-lg p-3 mr-1">
-                  <p className="text-5xl text-center">100+</p>
+                  <p className="text-3xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl text-center">
+                    100+
+                  </p>
                   <p className="text-sm mt-5 text-center">Projects</p>
                 </div>
                 <div className="bg-gray-100 rounded-lg p-3 mr-1">
-                  <p className="text-5xl text-center">5+</p>
+                  <p className="text-3xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl text-center">
+                    5+
+                  </p>
                   <p className="text-sm mt-5 text-center">Years Experience</p>
                 </div>
               </div>
