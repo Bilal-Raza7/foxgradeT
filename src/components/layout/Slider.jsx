@@ -64,17 +64,17 @@ const Slider = () => {
           className="fs-5 markP"
         >
           <div className="grid grid-cols-4 ml-9 gap-16">
-            <div className="flex flex-col gap-4 w-72 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
-              <img src={img1} alt="" className="w-72" />
+            <div className="flex flex-col gap-4 w-96">
+              <img src={img1} alt="" className="w-96" />
             </div>
-            <div className="flex flex-col gap-4 w-72 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
-              <img src={img2} alt="" className="w-72" />
+            <div className="flex flex-col gap-4 w-96">
+              <img src={img2} alt="" className="w-96" />
             </div>
-            <div className="flex flex-col gap-4 w-72 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
-              <img src={img3} alt="" className="w-72" />
+            <div className="flex flex-col gap-4 w-96">
+              <img src={img3} alt="" className="w-96" />
             </div>
-            <div className="flex flex-col gap-4 w-72 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
-              <img src={img2} alt="" className="w-72" />
+            <div className="flex flex-col gap-4 w-96">
+              <img src={img2} alt="" className="w-96" />
             </div>
           </div>
         </Marquee>

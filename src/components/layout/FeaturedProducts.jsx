@@ -7,7 +7,7 @@ const FeaturedProducts = () => {
         <h2 className="text-center text-orange-500 xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl my-5">
           FEATURED PRODUCTS
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-14 float-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-14 pr-6 float-center">
           <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-white shadow-xl transition-all duration-300  hover:-translate-y-3">
             <figure>
               <img

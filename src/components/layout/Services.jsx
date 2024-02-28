@@ -17,7 +17,7 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-14 float-center">
             <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl transition-all duration-300  hover:-translate-y-3 effect grayscale hover:grayscale-0">
               <div className="flex justify-between pt-6">
-                <div className="text-orange-500 text-6xl pl-6">01</div>
+                <div className="text-orange-500 text-6xl pl-6 pr-4">01</div>
                 <img src={img1} alt="digital marketing" className="w-24 p-3" />
               </div>
               <div className="card-body">
@@ -28,7 +28,7 @@ const Services = () => {
             </div>
             <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl transition-all duration-300  hover:-translate-y-3 effect grayscale hover:grayscale-0">
               <div className="flex justify-between pt-6">
-                <div className="text-orange-500 text-6xl pl-6">02</div>
+                <div className="text-orange-500 text-6xl pl-6 pr-4">02</div>
                 <img src={img1} alt="digital marketing" className="w-24 p-3" />
               </div>
               <div className="card-body">
@@ -39,7 +39,7 @@ const Services = () => {
             </div>
             <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl transition-all duration-300  hover:-translate-y-3 effect grayscale hover:grayscale-0">
               <div className="flex justify-between pt-6">
-                <div className="text-orange-500 text-6xl pl-6">03</div>
+                <div className="text-orange-500 text-6xl pl-6 pr-4">03</div>
                 <img src={img1} alt="digital marketing" className="w-24 p-3" />
               </div>
               <div className="card-body">
