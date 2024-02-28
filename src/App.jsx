@@ -20,6 +20,7 @@ import {
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import Contact from "./components/layout/Contact";
 import Services from "./components/layout/Services";
+import About from "./components/layout/About";
 
 const App = () => {
   const [collapse, setCollapse] = useState(false);
@@ -195,6 +196,7 @@ const App = () => {
             <FeaturedProducts className="m-6" />
             <Services />
             <Testimonials />
+            <About />
             <Contact />
             <Footer />
           </div>
@@ -204,6 +206,7 @@ const App = () => {
             <FeaturedProducts />
             <Services />
             <Testimonials />
+            <About />
             <Contact />
             <Footer />
           </div>
