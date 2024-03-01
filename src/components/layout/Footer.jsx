@@ -1,5 +1,5 @@
 import React from "react";
-import SidebarLogo from "../../../Website Elements/Website FG Logo.png";
+import SidebarLogo from "../../../FOXGRADE/FoxGrade Logo Text.svg";
 
 const Footer = () => {
   const footerYear = new Date().getFullYear();
@@ -8,7 +8,11 @@ const Footer = () => {
       <div className="bg-gray-200">
         <footer className="footer pl-6 py-4 border-t  text-gray-800 border-base-300 overflow-hidden">
           <aside className="items-center grid-flow-col">
-            <img src={SidebarLogo} alt="foxGrade" className="w-40 mr-3 " />
+            <img
+              src={SidebarLogo}
+              alt="foxGrade"
+              className="w-40 mr-3 drop-shadow-lg"
+            />
             <span className="opacity-90">Digital Marketing</span>
             <div className="vl"></div>
             <span className="opacity-90">Graphic Design</span>

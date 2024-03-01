@@ -1,5 +1,5 @@
 import React from "react";
-import dp from "../../../Website Elements/Fox BG Mini Circle Overlay.png";
+import dp from "../../../FOXGRADE/dp.png";
 
 const About = () => {
   return (

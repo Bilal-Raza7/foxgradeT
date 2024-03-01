@@ -4,8 +4,8 @@ import "./App.css";
 import Slider from "./components/layout/Slider";
 import FeaturedProducts from "./components/layout/FeaturedProducts";
 import Testimonials from "./components/layout/Testimonials";
-import SidebarLogo from "../Website Elements/logo1.png";
-import Logo from "../Website Elements/Logo Fox.png";
+import SidebarLogo from "../FOXGRADE/FoxGrade Logo Text.svg";
+import Logo from "../FOXGRADE/logoicon.svg";
 import {
   FaBookmark,
   FaComment,

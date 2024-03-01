@@ -1,5 +1,5 @@
-import SidebarLogo from "../../../Website Elements/logo1.png";
-import Logo from "../../../Website Elements/Logo Fox.png";
+import SidebarLogo from "../../../FOXGRADE/FoxGrade Logo Text.svg";
+import Logo from "../../../FOXGRADE/logoicon.svg";
 import { Link } from "react-router-dom";
 import {
   FaBookmark,

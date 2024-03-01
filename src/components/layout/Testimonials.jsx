@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import img1 from "../../../Website Elements/Logo Fox.png";
+import img1 from "../../../FOXGRADE/Circle BG.png";
 
 const Testimonials = () => {
   return (
@@ -18,7 +18,7 @@ const Testimonials = () => {
           <div className="grid grid-cols-3 ml-9 gap-16">
             <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
               <div className="flex justify-around py-6">
-                <img src={img1} alt="" className="w-12" />
+                <img src={img1} alt="" className="w-16 object-contain" />
                 <div>
                   <h3 className="font-bold text-xl pt-3">John Doe</h3>
                   <div className="rating rating-sm">
@@ -60,7 +60,7 @@ const Testimonials = () => {
             </div>
             <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
               <div className="flex justify-around py-6">
-                <img src={img1} alt="" className="w-12" />
+                <img src={img1} alt="" className="w-16 object-contain" />
                 <div>
                   <h3 className="font-bold text-xl pt-3">John Doe</h3>
                   <div className="rating rating-sm">
@@ -102,7 +102,7 @@ const Testimonials = () => {
             </div>
             <div className="flex flex-col gap-4 xl:w-72 lg:w-60 w-60 p-3 border rounded-lg p-6 bg-gray-100 shadow-xl">
               <div className="flex justify-around py-6">
-                <img src={img1} alt="" className="w-12" />
+                <img src={img1} alt="" className="w-16 object-contain" />
                 <div>
                   <h3 className="font-bold text-xl pt-3">John Doe</h3>
                   <div className="rating rating-sm">
