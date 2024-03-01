@@ -1,20 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
-// import Swiper from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
-
-// import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
-import Marquee from "react-fast-marquee";
-import img1 from "../../../Website Elements/Step 1 Image.png";
-import img2 from "../../../Website Elements/Step 2 Image.png";
-import img3 from "../../../Website Elements/Step 3 Image.png";
-
+import img1 from "../../../img/1.jpg";
+import img2 from "../../../img/2.jpg";
+import img3 from "../../../img/3.jpg";
+import img4 from "../../../img/4.jpg";
+import img5 from "../../../img/5.jpg";
+import img6 from "../../../img/6.jpg";
+import img7 from "../../../img/7.jpg";
 const Slider = () => {
   return (
     <>
@@ -40,31 +37,25 @@ const Slider = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src={img1} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src={img2} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src={img3} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <img src={img4} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            <img src={img5} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+            <img src={img6} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            <img src={img7} />
           </SwiperSlide>
         </Swiper>
       </div>
