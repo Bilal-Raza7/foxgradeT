@@ -1,5 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
+// import Swiper from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/effect-coverflow";
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper/modules";
 import Marquee from "react-fast-marquee";
 import img1 from "../../../Website Elements/Step 1 Image.png";
 import img2 from "../../../Website Elements/Step 2 Image.png";
@@ -9,75 +19,81 @@ const Slider = () => {
   return (
     <>
       <div className="grid xl:block lg:block md:block sm:block hidden">
-        {/* <div className="hl"></div> */}
         <h3 className="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-xl text-center my-5 text-orange-500 px-3">
           ELEVATING BRANDS WITH TRENDS
         </h3>
-        {/* <div className="carousel carousel-end">
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-              alt="Drink"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-              alt="Drink"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-              alt="Drink"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-              alt="Drink"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-              alt="Drink"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-              alt="Drink"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-              alt="Drink"
-            />
-          </div>
-        </div> */}
-        <Marquee
-          speed={60}
-          pauseOnHover={true}
-          autoFill={true}
-          className="fs-5 markP"
+
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={true}
+          modules={[EffectCoverflow, Pagination]}
+          className="mySwiper"
         >
-          <div className="grid grid-cols-4 ml-9 gap-16">
-            <div className="flex flex-col gap-4 w-96">
-              <img src={img1} alt="" className="w-96" />
-            </div>
-            <div className="flex flex-col gap-4 w-96">
-              <img src={img2} alt="" className="w-96" />
-            </div>
-            <div className="flex flex-col gap-4 w-96">
-              <img src={img3} alt="" className="w-96" />
-            </div>
-            <div className="flex flex-col gap-4 w-96">
-              <img src={img2} alt="" className="w-96" />
-            </div>
-          </div>
-        </Marquee>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-1.jpg"
+              className="w-96 mr-0"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-2.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-3.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-4.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-5.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-6.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-7.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-8.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://swiperjs.com/demos/images/nature-9.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );

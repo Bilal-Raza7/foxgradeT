@@ -47,7 +47,7 @@ const App = () => {
                   <div
                     className={`grid ${
                       collapse
-                        ? "place-items-start pl-7"
+                        ? "place-items-start pl-5"
                         : "place-items-center px-9 "
                     }`}
                   >

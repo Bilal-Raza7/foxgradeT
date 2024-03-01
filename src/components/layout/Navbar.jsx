@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="logo-container-sidebar my-9">
             <div
               className={`grid ${
-                collapse ? "place-items-start pl-7" : "place-items-center px-9 "
+                collapse ? "place-items-start pl-5" : "place-items-center px-9 "
               }`}
             >
               <img
