@@ -40,58 +40,31 @@ const Slider = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-1.jpg"
-              className="w-96 mr-0"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-2.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-3.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-4.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-5.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-6.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-7.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-8.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              src="https://swiperjs.com/demos/images/nature-9.jpg"
-              className="w-96"
-            />
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
           </SwiperSlide>
         </Swiper>
       </div>
