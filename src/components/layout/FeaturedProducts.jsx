@@ -18,7 +18,8 @@ const FeaturedProducts = () => {
             <figure>
               <img src={img1} alt="Shoes" className="object-contain h-44" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-5">
+              <h2 className="card-title">Logo Design</h2>
               <div className="card-actions justify-end">
                 {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
@@ -28,7 +29,8 @@ const FeaturedProducts = () => {
             <figure>
               <img src={img2} alt="Shoes" className="object-contain h-44" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-5">
+              <h2 className="card-title">Printable</h2>
               <div className="card-actions justify-end">
                 {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
@@ -38,7 +40,8 @@ const FeaturedProducts = () => {
             <figure>
               <img src={img3} alt="Shoes" className="object-contain h-44" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-5">
+              <h2 className="card-title">Web Templets</h2>
               <div className="card-actions justify-end">
                 {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
@@ -48,7 +51,8 @@ const FeaturedProducts = () => {
             <figure>
               <img src={img4} alt="Shoes" className="object-contain h-44" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-5">
+              <h2 className="card-title">Youtube Thumbnail</h2>
               <div className="card-actions justify-end">
                 {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
@@ -58,7 +62,8 @@ const FeaturedProducts = () => {
             <figure>
               <img src={img5} alt="Shoes" className="object-contain h-44" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-5">
+              <h2 className="card-title">Product Mockup</h2>
               <div className="card-actions justify-end">
                 {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
@@ -68,7 +73,8 @@ const FeaturedProducts = () => {
             <figure>
               <img src={img6} alt="Shoes" className="object-contain h-44" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-5">
+              <h2 className="card-title">Campaigns (Ads)</h2>
               <div className="card-actions justify-end">
                 {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>

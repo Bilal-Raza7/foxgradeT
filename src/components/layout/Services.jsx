@@ -1,5 +1,7 @@
 import React from "react";
-import img1 from "../../../Website Elements/Whatsapp Icon.png";
+import img1 from "../../../Website Elements/Digital Marketing.gif";
+import img2 from "../../../Website Elements/Graphic Design.gif";
+import img3 from "../../../Website Elements/Video Production.gif";
 
 const Services = () => {
   return (
@@ -16,33 +18,33 @@ const Services = () => {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 pl-14 float-center">
             <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl transition-all duration-300  hover:-translate-y-3 effect grayscale hover:grayscale-0">
-              <div className="flex justify-between pt-6">
+              <div className="flex justify-center pt-6">
                 <div className="text-orange-500 text-6xl pl-6 pr-4">01</div>
-                <img src={img1} alt="digital marketing" className="w-24 p-3" />
+                <img src={img1} alt="digital marketing" className="w-36 " />
               </div>
-              <div className="card-body">
+              <div className="card-body px-6 py-3">
                 <h2 className="card-title self-start text-gray-600">
                   DIGITAL MARKETING
                 </h2>
               </div>
             </div>
             <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl transition-all duration-300  hover:-translate-y-3 effect grayscale hover:grayscale-0">
-              <div className="flex justify-between pt-6">
-                <div className="text-orange-500 text-6xl px-6">02</div>
-                <img src={img1} alt="digital marketing" className="w-24 p-3" />
+              <div className="flex justify-center pt-6">
+                <div className="text-orange-500 text-6xl pl-6 pr-4">02</div>
+                <img src={img2} alt="digital marketing" className="w-36 " />
               </div>
-              <div className="card-body">
+              <div className="card-body px-6 py-3">
                 <h2 className="card-title self-start text-gray-600">
                   GRAPHIC DESIGNING
                 </h2>
               </div>
             </div>
             <div className="card lg:w-72 md:w-64 sm:w-48 my-3 bg-gray-100 shadow-xl transition-all duration-300  hover:-translate-y-3 effect grayscale hover:grayscale-0">
-              <div className="flex justify-between pt-6">
+              <div className="flex justify-center pt-6">
                 <div className="text-orange-500 text-6xl pl-6 pr-4">03</div>
-                <img src={img1} alt="digital marketing" className="w-24 p-3" />
+                <img src={img3} alt="digital marketing" className="w-36 " />
               </div>
-              <div className="card-body">
+              <div className="card-body px-6 py-3">
                 <h2 className="card-title self-start text-gray-600">
                   VIDEO EDITING
                 </h2>
